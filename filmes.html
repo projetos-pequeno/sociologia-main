@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="principal-filme">
+            <div class="body-filme">
+            <div class="cabecalho">
+                <img src="img/menu-btn.png" alt="menu" class="menu-hamburguer">
+        
+            <h1>Trechos do filme Tropa de elite 2</h1>
+            </div>
+            
+            <nav class="navbar">
+            
+                <div class="musica-container">
+                    <video controls class="filme" onclick="toggleFullScreen(this)">
+                        <source class="videos-filme" src="trecho-1.mp4" type="video/mp4">
+                    </video>
+                    <video controls class="filme" onclick="toggleFullScreen(this)">
+                        <source class="videos-filme" src="trecho-2.mp4" type="video/mp4">
+                    </video>
+                    <video controls class="filme" onclick="toggleFullScreen(this)">
+                        <source class="videos-filme" src="trecho-3.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+                <div class="nav-links">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="filmes.html">Filme</a></li'>
+                        <li class="active"><a href="musica.html">Musica</a></li>
+                        <li class="active"><a href="jornal.html">Jornal</a></li>
+                        <li class="active"><a href="video.html">Video</a></li>
+                    </ul>
+                </div>
+                
+            
+            </nav>
+        
+
+        <script src="script.js" defer></script>
+        </div>
+    </div>
+</body>
+</html>

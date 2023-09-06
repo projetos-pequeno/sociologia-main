@@ -1,1 +1,1 @@
-# sociologia-main
+# sociologia
